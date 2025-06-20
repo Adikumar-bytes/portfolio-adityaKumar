@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Kumar | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0a192f;
+      color: #ccd6f6;
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #0a192f;
+      padding: 1rem 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    nav a {
+      color: #64ffda;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: url('https://images.unsplash.com/photo-1555949963-aa79dcee981d?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      color: #ffffff;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 5rem 2rem;
+    }
+    h2 {
+      color: #64ffda;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .skills-list, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .project-card {
+      background-color: #112240;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #0a192f;
+      color: #8892b0;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <h1>Hi, I'm Aditya Kumar</h1>
+    <p>Data Analyst Learner | Front-End Developer | Digital Marketer | Video Editor</p>
+    <p>📧 adi700607kumar@gmail.com | 📍 Agra, India | 📞 7060072335</p>
+    <p><a href="https://www.linkedin.com/in/aditya-kumar-121a4024b" style="color:#64ffda;">LinkedIn Profile</a></p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Motivated fresher with experience in digital marketing, front-end development, and video editing. Expanding skills in data analysis with Python and Power BI.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div>💻 Digital Marketing (Google Ads, SEO, SMM)</div>
+      <div>📊 Data Analysis (Python, Excel, Power BI)</div>
+      <div>🌐 Frontend (HTML, CSS, JavaScript)</div>
+      <div>🎞️ Video Editing (Filmora, CapCut, Canva)</div>
+      <div>🛠️ Tools (VS Code, MS Office, GitHub)</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>Responsive portfolio built with HTML/CSS showcasing resume, skills and contact info.</p>
+      </div>
+      <div class="project-card">
+        <h3>PupHub</h3>
+        <p>Pet care platform built as a team project during IDE Bootcamp.</p>
+      </div>
+      <div class="project-card">
+        <h3>Voter Registration Portal</h3>
+        <p>HTML/CSS portal for mock voter registration forms and validation.</p>
+      </div>
+      <div class="project-card">
+        <h3>Sales Dashboard</h3>
+        <p>Interactive dashboard using Power BI for tracking retail KPIs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: adi700607kumar@gmail.com</p>
+    <p>Phone: 7060072335</p>
+    <p>Location: Agra, India</p>
+  </section>
+
+  <footer>&copy; 2025 Aditya Kumar. Designed with 💻 and ❤️</footer>
+</body>
+</html>
